@@ -1,3 +1,26 @@
+
+#domBgContainer{
+  height: 700px;
+
+}
+@media (max-width: 1440px) {
+  #domBgContainer{
+    height: 650px;
+  }
+}
+@media (max-width: 991px) {
+  #domBgContainer{
+    height: 650px;
+  }
+}
+@media (max-width: 768px) {
+  #domBgContainer{
+    height: 550px;
+  }
+}
+.hideOnMobileBlock .bg-hidden-white img{
+  max-width: 1000px;
+}
 @media (max-width: 425px) {
   #domBgContainer {
     height: 500px !important;
