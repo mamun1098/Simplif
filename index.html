@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simplif</title>
+    <link
+      rel="icon"
+      href="https://simplif.com/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/includes/template/assets/vendors/core/core.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/includes/template/assets/fonts/feather-font/css/iconfont.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/includes/template/assets/vendors/mdi/css/materialdesignicons.min.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/includes/template/assets/css/demo_1/style.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/style/main_style.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/style/landing_design/styler.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/style/styles2.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="https://simplif.com/style/responsiveness.css?version=1-0070"
+    />
+    <link
+      rel="stylesheet"
+      href="/custom.css"
+    />
+  </head>
+  <script>
+    var searchQueries = null,
+      error = null;
+    const serverHost = "https:\/\/simplif.com\/";
+    const PUB_KEY_STRIPE =
+      "pk_test_51LQJ3HC0VtDEmCpfBggiSy4rpOu8Yp7WiWuS0q326GUx1Waw9gKGBDKDgXb90glJ3Ope4jaJE1ZYjHhMHHKJf4O500sDWRdwrb";
+    const userSession = false;
+    const UID = 0;
+    const SUMMERTIME = 2;
+  </script>
+  <body id="landing-page-body">
+    <div id="domBgContainer">
+      <div id="domBgStyle"></div>
+    </div>
+    <script>
+      var pageTitle = "simplif.com";
+    </script>
+
+    <div class="landing-wrapper">
+      <!--<div class="landingTopSection">-->
+      <div class="row">
+        <div
+          class="col-12 pt-4 m-0 flex-row-between flex-align-center"
+          id="main-top-nav"
+        >
+          <div>
+            <a href="https://simplif.com/">
+              <img
+                src="https://simplif.com/images/mainpage/bottom_nav_logo.png"
+                class="w-150px noSelect hideOnMobileXsBlock"
+              />
+              <img
+                src="https://simplif.com/images/gray_icon.png"
+                class="square-40 noSelect mobileOnlyXsBlock"
+              />
+            </a>
+          </div>
+
+          <div class="flex-row-start flex-align-center" id="main-top-nav-bar">
+            <a href="https://simplif.com/?page=login" class="btn btn-base"
+              >Login</a
+            >
+            <a
+              href="https://simplif.com/?page=signup"
+              class="btn btn-white-orange btn-base"
+              >SIGN UP</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--</div>-->
+
+      <div class="row mt-5 hideOnMobileBlock">
+        <div class="col-12">
+          <div class="flex-col-start flex-align-center" id="main-top-cover">
+            <p class="font-40 font-weight-bold title-text">
+              Influencer Marketing Content On Demand
+            </p>
+            <p class="font-16 subtitle">
+              The all-in-one completely FREE platform to minimize costs and
+              maximise returns
+            </p>
+
+            <div class="mt-4 bg-hidden-white">
+              <img src="images/mainpage/main_banner.png" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 about-seciton">
+        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex about-image">
+          <img
+            src="https://simplif.com/images/mainpage/main_first_section.png"
+            class="w-100"
+          />
+        </div>
+
+        <div class="col-12 col-sm-6 mt-1 about-content">
+          <div
+            class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5"
+          >
+            <p class="font-30 font-weight-bold title">Find</p>
+            <p class="font-18 color-lighter-purple subtitle">
+              Every influencers are vetted by us
+            </p>
+
+            <div class="font-18 flex-row-start flex-align-center mt-3 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                Always receive high-quality, professional content
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                Receive authentic branded content across tiktok
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                Receive high quality content with commercial rights
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 section-xs-bg section-xs about-seciton">
+        <div class="col-12 col-sm-6 mt-1">
+          <div
+            class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
+          >
+            <p class="font-30 font-weight-bold title">No up front costs</p>
+            <p class="font-18 color-lighter-purple subtitle">
+              All we take is a small 5% service fee to improve your experience
+            </p>
+
+            <div class="font-18 flex-row-start flex-align-center mt-3 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">Search influencers for free</p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">No subscriptions plans</p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">No contracts or hidden fees</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex about-image">
+          <img
+            src="https://simplif.com/images/mainpage/main_second_section.png"
+            class="w-100"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-5 about-seciton">
+        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex about-image">
+          <img
+            src="https://simplif.com/images/mainpage/main_third_section.png"
+            class="w-100"
+          />
+        </div>
+
+        <div class="col-12 col-sm-6 mt-1 flex-col-around ">
+          <div
+            class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
+          >
+            <p class="font-30 font-weight-bold title">Protected</p>
+            <p class="font-18 color-lighter-purple subtitle">We protect you</p>
+
+            <div class="font-18 flex-row-start flex-align-center mt-3 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                We hold payments till your satisfied with the order
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                We ensure influencers publish your content onto their tiktok
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                We manual review each influencer profile after registration
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 section-xs-bg section-xs about-seciton">
+        <div class="col-12 col-sm-6 mt-1">
+          <div
+            class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
+          >
+            <p class="font-30 font-weight-bold title">Influencer Metrics</p>
+            <p class="font-18 color-lighter-purple subtitle">
+              Instant access to influencer analytics
+            </p>
+
+            <div class="font-18 flex-row-start flex-align-center mt-3 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                We manually check and create influencer metrics.
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                Provide direct links to published content once delivered.
+              </p>
+            </div>
+            <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
+              <img
+                src="https://simplif.com/images/mainpage/bulletpoint.png"
+                class="w-20px"
+              />
+              <p class="font-18 ml-1">
+                Completely free from monthly plans and contracts
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex about-image">
+          <img
+            src="https://simplif.com/images/mainpage/main_fourth_section.png"
+            class="w-100"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-5 desktopOnlyFlex">
+        <div class="col-12">
+          <p class="font-50 font-weight-bold text-center">How Simplif works?</p>
+
+          <div class="row mt-5">
+            <div class="mt-1 col-12 col-md-6 col-xl-3">
+              <div class="flex-col-start">
+                <img
+                  src="https://simplif.com/images/mainpage/bottom_section_left.png"
+                  class="w-100px"
+                />
+
+                <p class="mt-2 font-20 font-weight-bold">
+                  Search on Marketplace
+                </p>
+                <p class="mt-2 font-16 color-lighter-purple">
+                  Find the right influencer and the package
+                </p>
+              </div>
+            </div>
+            <div class="mt-1 col-12 col-md-6 col-xl-3">
+              <div class="flex-col-start">
+                <img
+                  src="https://simplif.com/images/mainpage/bottom_section_second_left.png"
+                  class="w-100px"
+                />
+
+                <p class="mt-2 font-20 font-weight-bold">
+                  Fill the requirments
+                </p>
+                <p class="mt-2 font-16 color-lighter-purple">
+                  Complete the order requirments e.g. captions and tags to use
+                </p>
+              </div>
+            </div>
+            <div class="mt-1 col-12 col-md-6 col-xl-3">
+              <div class="flex-col-start">
+                <img
+                  src="https://simplif.com/images/mainpage/bottom_section_second_right.png"
+                  class="w-100px"
+                />
+
+                <p class="mt-2 font-20 font-weight-bold">Collaboration</p>
+                <p class="mt-2 font-16 color-lighter-purple">
+                  Now let the influencer work their magic
+                </p>
+              </div>
+            </div>
+            <div class="mt-1 col-12 col-md-6 col-xl-3">
+              <div class="flex-col-start">
+                <img
+                  src="https://simplif.com/images/mainpage/bottom_section_right.png"
+                  class="w-100px"
+                />
+
+                <p class="mt-2 font-20 font-weight-bold">
+                  Approve and Get Paid
+                </p>
+                <p class="mt-2 font-16 color-lighter-purple">
+                  View and approve the delivery and published content
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 hideOnDesktopFlex">
+        <div class="col-12">
+          <p class="font-50 font-weight-bold text-center title">How Simplif works?</p>
+
+          <div class="flex-col-start flex-align-center items-wrapper">
+            <div class="flex-col-start flex-align-center mt-4 single-item">
+              <img
+                src="https://simplif.com/images/mainpage/bottom_section_left.png"
+                class="w-100px"
+              />
+
+              <p class="mt-2 font-20 font-weight-bold">Search on Marketplace</p>
+              <p class="mt-2 font-16 color-lighter-purple">
+                Find the right influencer and the package
+              </p>
+            </div>
+            <div class="flex-col-start flex-align-center mt-4 single-item">
+              <img
+                src="https://simplif.com/images/mainpage/bottom_section_second_left.png"
+                class="w-100px"
+              />
+
+              <p class="mt-2 font-20 font-weight-bold">Fill the requirments</p>
+              <p class="mt-2 font-16 color-lighter-purple">
+                Complete the order requirments e.g. captions and tags to use
+              </p>
+            </div>
+            <div class="flex-col-start flex-align-center mt-4 single-item">
+              <img
+                src="https://simplif.com/images/mainpage/bottom_section_second_right.png"
+                class="w-100px"
+              />
+
+              <p class="mt-2 font-20 font-weight-bold">Collaboration</p>
+              <p class="mt-2 font-16 color-lighter-purple">
+                Now let the influencer work their magic
+              </p>
+            </div>
+            <div class="flex-col-start flex-align-center mt-4 single-item">
+              <img
+                src="https://simplif.com/images/mainpage/bottom_section_right.png"
+                class="w-100px"
+              />
+
+              <p class="mt-2 font-20 font-weight-bold">Approve and Get Paid</p>
+              <p class="mt-2 font-16 color-lighter-purple">
+                View and approve the delivery and published content
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="landing-footer">
+      <div class="flex-row-between flex-wrap footer-wrapper">
+        <img
+          src="https://simplif.com/images/mainpage/bottom_nav_logo.png"
+          class="w-350px mt-2"
+          id="footer-logo"
+        />
+
+        <div class="flex-row-start flex-wrap">
+          <div class="flex-col-start flex-wrap pl-2 pr-2 ml-1 mr-1 mt-2">
+            <p class="font-20 font-weight-bold">Company</p>
+            <a
+              class="font-14 mt-2"
+              href="https://simplif.com//?page=privacy_policy"
+              target="_blank"
+              >Privacy Policy</a
+            >
+            <a
+              class="font-14 mt-2"
+              href="https://simplif.com//?page=terms_of_use"
+              target="_blank"
+              >Terms of Use</a
+            >
+          </div>
+          <div class="flex-col-start flex-wrap pl-2 pr-2 ml-1 mr-1 mt-2">
+            <p class="font-20 font-weight-bold">Support</p>
+            <a class="font-14 mt-2" href="#">Support@simplif.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://simplif.com/javascript/includes/jquery.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/core/core.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/moment/moment.min.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/jquery.flot/jquery.flot.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/jquery.flot/jquery.flot.resize.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/vendors/feather-icons/feather.min.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/js/template.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/includes/template/assets/js/dashboard.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/javascript/main.js?version=1-0070"
+      defer
+    ></script>
+    <script
+      src="https://simplif.com/javascript/initializer.js?version=1-0070"
+      defer
+    ></script>
+
+    <style>
+      .hideOnMobileBlock {
+        font-size: 14px !important;
+      }
+    </style>
+  </body>
+</html>
