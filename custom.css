@@ -111,6 +111,7 @@
   flex-direction: row;
   justify-content: center;
   row-gap: 30px;
+  margin-bottom: 30px;
   -moz-column-gap: 25px;
        column-gap: 25px;
 }
