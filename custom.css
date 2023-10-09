@@ -255,8 +255,13 @@
   }
 }
 @media (max-width: 768px) {
-  .about-seciton.first-about-section {
+  /* .about-seciton.first-about-section {
     margin-top: -100px !important;
+  } */
+}
+@media (max-width: 576px) {
+  .about-seciton.first-about-section {
+    margin-top: -85px !important;
   }
 }
 
