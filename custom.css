@@ -21,16 +21,6 @@
 .hideOnMobileBlock .bg-hidden-white img{
   max-width: 1000px;
 }
-@media (max-width: 425px) {
-  #domBgContainer {
-    height: 500px !important;
-  }
-}
-@media (max-width: 320px) {
-  #domBgContainer {
-    height: 450px !important;
-  }
-}
 #domBgContainer #domBgStyle {
   background-size: cover !important;
 }
@@ -59,43 +49,72 @@
     margin-bottom: 10px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 576px) {
+  #domBgContainer{
+    height: 182px;
+  }
   .hideOnMobileBlock .title-text {
     display: block !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     text-align: center;
+    max-width: 260px;
+    margin-bottom: 0px !important;
   }
 }
+
 @media (max-width: 576px) {
   .hideOnMobileBlock .subtitle {
     max-width: 320px;
     margin: auto;
     text-align: center;
+    font-size: 5px !important;
+    font-weight: 400;
   }
 }
 @media (max-width: 450px) {
   .hideOnMobileBlock .subtitle {
     display: block !important;
-    font-size: 14px !important;
+    font-size: 5px !important;
   }
 }
-
+.about-seciton{
+  background: transparent !important;
+}
 @media (max-width: 576px) {
   .about-seciton .about-content .title {
-    text-align: center;
-    font-size: 25px !important;
-    margin-bottom: 10px;
+    font-size: 14px !important;
+    font-weight: 700;
   }
   .about-seciton .about-content .subtitle {
-    text-align: center;
-    font-size: 16px !important;
-    margin-bottom: 15px;
+    color: #7C86A9;
+    font-size: 7px !important;
+    font-weight: 400;
+    margin-bottom: 10px !important;
+  }
+  .about-seciton .about-content .content-text{
+    column-gap: 1px !important;
+    -moz-column-gap: 1px;
+    align-items: center;
+    margin-top: -0px !important;
+  }
+  .about-seciton .about-content .content-text img {
+    max-width: 10px !important;
+    margin-top: 3px !important;
+  }
+  .about-seciton .about-content .content-text p {
+    color: #0C0C0C;
+    font-size: 5.5px !important;
+    font-weight: 500;
+    line-height: 15px;
   }
 }
+/* @media (max-width: 330px) {
+
 .about-seciton .about-content .content-text {
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
+} */
 @media (max-width: 991px) {
   .about-seciton .about-content .content-text {
     align-items: flex-start !important;
@@ -105,54 +124,27 @@
     margin-top: 7px;
   }
 }
-@media (max-width: 576px) {
-  .about-seciton .about-content .content-text P {
-    font-size: 14px !important;
-  }
-  .about-seciton .about-content .content-text img {
-    margin-top: 2px;
-  }
-}
+
 
 @media (max-width: 991px) {
   .hideOnDesktopFlex .title {
-    font-size: 40px !important;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 768px) {
   .hideOnDesktopFlex .title {
-    font-size: 30px !important;
-  }
-}
-@media (max-width: 576px) {
-  .hideOnDesktopFlex .title {
-    font-size: 25px !important;
+    font-size: 14px !important;
   }
 }
 .hideOnDesktopFlex .items-wrapper {
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
   row-gap: 30px;
   margin-bottom: 30px;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
 }
 .hideOnDesktopFlex .items-wrapper .single-item {
-  width: 310px;
+  width: 250px;
   text-align: center;
-}
-@media (max-width: 576px) {
-  .hideOnDesktopFlex .items-wrapper .single-item img {
-    max-width: 70px;
-    max-height: 70px;
-  }
-  .hideOnDesktopFlex .items-wrapper .single-item .font-weight-bold {
-    font-size: 16px !important;
-  }
-  .hideOnDesktopFlex .items-wrapper .single-item .color-lighter-purple {
-    font-size: 14px !important;
-  }
 }
 
 @media (max-width: 1025px) {
@@ -165,10 +157,23 @@
 }
 @media (max-width: 768px) {
   #landing-footer .footer-wrapper {
-    flex-direction: column;
-    row-gap: 50px;
+    align-items: flex-start;
+    column-gap: 40px;
+    justify-content: flex-start !important; 
   }
   #landing-footer .footer-wrapper img {
-    max-width: 150px !important;
+    max-width: 55px !important;
+  }
+  #landing-footer .footer-wrapper p {
+    color: #FFF;
+    font-size: 5px !important;
+    font-weight: 700;
+  }
+  #landing-footer .footer-wrapper a {
+    color: #FFF;
+    font-size: 4px !important;
+    font-weight: 400;
+    opacity: 0.78;
   }
 }
+

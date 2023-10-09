@@ -38,13 +38,22 @@
       rel="stylesheet"
       href="https://simplif.com/style/styles2.css?version=1-0070"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://simplif.com/style/responsiveness.css?version=1-0070"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="responsiveness.css"
     />
     <link
       rel="stylesheet"
       href="custom.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="style.css"
     />
   </head>
   <script>
@@ -113,23 +122,26 @@
             <div class="mt-4 bg-hidden-white">
               <img src="images/mainpage/main_banner.png" class="w-100" />
             </div>
+            <div class="bg-hidden-white mobile-image">
+              <img src="images/mainpage/mobile-banner.svg" />
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="row mt-5 about-seciton">
-        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
+      <div class="row mt-5 about-seciton first-about-section">
+        <div class="col-6 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
           <img
             src="https://simplif.com/images/mainpage/main_first_section.png"
             class="w-100"
           />
         </div>
 
-        <div class="col-12 col-sm-6 mt-1 about-content">
+        <div class="col-6 col-sm-6 mt-1 about-content">
           <div
             class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5"
           >
-            <p class="font-30 font-weight-bold title">Find</p>
+            <p class="font-30 font-weight-bold title orange">Find</p>
             <p class="font-18 color-lighter-purple subtitle">
               Every influencers are vetted by us
             </p>
@@ -166,11 +178,11 @@
       </div>
 
       <div class="row mt-5 section-xs-bg section-xs about-seciton">
-        <div class="col-12 col-sm-6 mt-1">
+        <div class="col-6 col-sm-6 mt-1">
           <div
             class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
           >
-            <p class="font-30 font-weight-bold title">No up front costs</p>
+            <p class="font-30 font-weight-bold title black">No up front costs</p>
             <p class="font-18 color-lighter-purple subtitle">
               All we take is a small 5% service fee to improve your experience
             </p>
@@ -199,7 +211,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
+        <div class="col-6 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
           <img
             src="https://simplif.com/images/mainpage/main_second_section.png"
             class="w-100"
@@ -208,18 +220,18 @@
       </div>
 
       <div class="row mt-5 about-seciton">
-        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
+        <div class="col-6 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
           <img
             src="https://simplif.com/images/mainpage/main_third_section.png"
             class="w-100"
           />
         </div>
 
-        <div class="col-12 col-sm-6 mt-1 flex-col-around ">
+        <div class="col-6 col-sm-6 mt-1 flex-col-around ">
           <div
             class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
           >
-            <p class="font-30 font-weight-bold title">Protected</p>
+            <p class="font-30 font-weight-bold title orange">Protected</p>
             <p class="font-18 color-lighter-purple subtitle">We protect you</p>
 
             <div class="font-18 flex-row-start flex-align-center mt-3 content-text">
@@ -254,11 +266,11 @@
       </div>
 
       <div class="row mt-5 section-xs-bg section-xs about-seciton">
-        <div class="col-12 col-sm-6 mt-1">
+        <div class="col-6 col-sm-6 mt-1">
           <div
             class="flex-col-start flex-align-left mt-0 mt-lg-5 pt-2 pb-2 pt-lg-5 about-content"
           >
-            <p class="font-30 font-weight-bold title">Influencer Metrics</p>
+            <p class="font-30 font-weight-bold title black">Influencer Metrics</p>
             <p class="font-18 color-lighter-purple subtitle">
               Instant access to influencer analytics
             </p>
@@ -278,7 +290,7 @@
                 class="w-20px"
               />
               <p class="font-18 ml-1">
-                Provide direct links to published content once delivered.
+                Provide direct links to published content.
               </p>
             </div>
             <div class="font-18 flex-row-start flex-align-center mt-2 content-text">
@@ -293,7 +305,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
+        <div class="col-6 col-sm-6 mt-1 flex-col-end hideOnMobileFlex">
           <img
             src="https://simplif.com/images/mainpage/main_fourth_section.png"
             class="w-100"
@@ -368,9 +380,9 @@
         </div>
       </div>
 
-      <div class="row mt-5 hideOnDesktopFlex">
+      <div class="row mt-4 hideOnDesktopFlex">
         <div class="col-12">
-          <p class="font-50 font-weight-bold text-center title">How Simplif works?</p>
+          <p class="font-50 font-weight-bold text-center title">How <span class="orange">Simplif</span> works?</p>
 
           <div class="flex-col-start flex-align-center items-wrapper">
             <div class="flex-col-start flex-align-center mt-4 single-item">
@@ -440,7 +452,7 @@
               >Privacy Policy</a
             >
             <a
-              class="font-14 mt-2"
+              class="font-14"
               href="https://simplif.com//?page=terms_of_use"
               target="_blank"
               >Terms of Use</a
